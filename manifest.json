@@ -1,0 +1,12 @@
+﻿{
+  "manifest_version": 2,
+  "name": "vk giphy",
+  "version": "0.5",
+
+  "description": "Внедряет поиск Giphy в диалоги Vk",
+  
+  "permissions": [
+	"activeTab",
+	"http://api.giphy.com/"
+  ]
+}
