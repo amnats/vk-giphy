@@ -1,0 +1,26 @@
+{
+  "name": "vk-giphy",
+  "version": "0.0.1",
+  "description": "A chrome extension that integrates Giphy translate into VK private messages.",
+  "main": "main.js",
+  "dependencies": {
+    "giphy-api": "^1.2.5"
+  },
+  "devDependencies": {
+    "browserify": "^14.1.0",
+    "watchify": "^3.9.0"        
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artemmnad/vk-giphy.git"
+  },
+  "author": "artemmnad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artemmnad/vk-giphy/issues"
+  },
+  "homepage": "https://github.com/artemmnad/vk-giphy#readme"
+}
