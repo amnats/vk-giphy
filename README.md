@@ -1,2 +1,2 @@
 # vk giphy
-A chrome extension that integrates Giphy search into VK priate messages.
+A chrome extension that integrates Giphy translate into VK private messages.
