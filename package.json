@@ -1,14 +1,21 @@
 {
   "name": "vk-giphy",
-  "version": "0.0.1",
+  "version": "0.5.0",
   "description": "A chrome extension that integrates Giphy translate into VK private messages.",
   "main": "main.js",
   "dependencies": {
-    "giphy-api": "^1.2.5"
+    "giphy-api": "^1.2.5",
+    "google-translate-api": "^2.2.2",
+    "jquery": "^3.2.0"
   },
   "devDependencies": {
-    "browserify": "^14.1.0",
-    "watchify": "^3.9.0"        
+    "babel-preset-env": "^1.2.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-browserify": "^0.5.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-util": "^3.0.8"
   },
   "scripts": {
     "test": "test"
