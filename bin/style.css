@@ -1,3 +1,12 @@
-.giphy { 
-	background-color: red !important;
+#giphy-wrapper {
+	position: fixed;
+    bottom: 6%;
+}
+
+#giphy-wrapper button{
+    height: 20px;
+}
+
+#giphy-wrapper img {
+    margin: auto;
 }

@@ -2,23 +2,35 @@
   "manifest_version": 2,
   "name": "vk giphy",
   "version": "0.5.0",
-
   "description": "Внедряет поиск Giphy в диалоги Vk",
-  
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+
   "content_scripts": [
-	{
-		"matches": ["https://vk.com/*"],
-		"css": ["style.css"],
-		"js": ["bundle.js"],
-		"run_at": "document_end"
-	}
+    {
+      "matches": [
+        "https://vk.com/*"
+      ],
+      "css": [
+        "style.css"
+      ],
+      "js": [
+        "index.js"
+      ],
+      "run_at": "document_end"
+    }
   ],
-  
+
   "permissions": [
-	"activeTab",
-	"tabs",
-	"https://api.giphy.com/",
-    "https://translate.google.com/",
-	"https://vk.com/"
+    "tabs",
+    "declarativeContent",
+    "storage",
+    "https://api.giphy.com/",
+    "https://translate.yandex.net/",
+    "https://vk.com/",
+    "https://login.vk.com/"
   ]
 }

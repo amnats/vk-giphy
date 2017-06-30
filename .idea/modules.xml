@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/Dropbox/Work/Home website/Website/.idea/Website.iml" filepath="$USER_HOME$/Dropbox/Work/Home website/Website/.idea/Website.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/vk-giphy.iml" filepath="$PROJECT_DIR$/.idea/vk-giphy.iml" />
     </modules>
   </component>
